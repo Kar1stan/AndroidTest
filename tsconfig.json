@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./*"
+      ],
+      "src/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "@wdio/sync",
+      "node",
+      "mocha"
+    ],
+    "moduleResolution": "node",
+    "lib": [
+      "es2016"
+    ]
+  },
+  "strict": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "include": [
+    "test/**/*.ts"
+  ]
+}

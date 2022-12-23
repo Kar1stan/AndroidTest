@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Check locations" timestamp="2021-10-13T12:57:15" time="8.412" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Check locations"/>
+      <property name="capabilities" value="emulator-5554.android.11.app-staging-debug_apk"/>
+      <property name="file" value=".\test\aggregator-app\specs\locations.spec.ts"/>
+    </properties>
+    <testcase classname="emulator-5554.android.11.app-staging-debug_apk.Check_locations" name="Check location page defaults" time="5.004">
+      <system-out><![CDATA[
+COMMAND: POST /session/cd7ec83e-2599-424b-ad5d-0ecb5db24fb8/appium/app/reset - {}
+RESULT: {}
+COMMAND: DELETE /session/cd7ec83e-2599-424b-ad5d-0ecb5db24fb8 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
