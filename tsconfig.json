@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./*"
+      ],
+      "src/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+    ],
+    "moduleResolution": "node",
+  },
+  "strict": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "include": [
+    "test/**/*.ts"
+  ]
+}
