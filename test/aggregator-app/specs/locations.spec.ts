@@ -1,5 +1,3 @@
-import { expect } from "chai";
-import $ from "webdriverio/build/commands/browser/$";
 import CommonElements from "../pages/CommonElements.page";
 import MainPage from "../pages/Main.page";
 import 'dotenv/config'
