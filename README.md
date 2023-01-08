@@ -13,7 +13,7 @@ e2e-test for Spiderdoor applications
 
 ### How to run the android tests on windows
 
-We defined a default configuration (config/wdio.android.conf.js) for Android which will be executed when you run "npm run test:android".
+We defined a default configuration (wdio.android.conf.js) for Android which will be executed when you run "npm run test:android".
 
 Be sure that you have:
 
@@ -25,11 +25,11 @@ Be sure that you have:
 
 ### How to run the android tests on BrowserStack
 
-We defined a default configuration (config/wdio.android.bs.conf.js) for Android which will be executed when you run "npm run test:android:bs".
+We defined a default configuration (wdio.android.bs.conf.js) for Android which will be executed when you run "npm run test:android:bs".
 
 ### How to run the iOS tests on BrowserStack
 
-We defined a default configuration (config/wdio.ios.bs.conf.js) for iOS which will be executed when you run "npm run test:ios:bs".
+We defined a default configuration (wdio.ios.bs.conf.js) for iOS which will be executed when you run "npm run test:ios:bs".
 
 ### Linter
 
