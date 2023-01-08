@@ -27,10 +27,6 @@ Be sure that you have:
 
 We defined a default configuration (wdio.android.bs.conf.js) for Android which will be executed when you run "npm run test:android:bs".
 
-### How to run the iOS tests on BrowserStack
-
-We defined a default configuration (wdio.ios.bs.conf.js) for iOS which will be executed when you run "npm run test:ios:bs".
-
 ### Linter
 
 We use eslint to lint the typescript files. The prettier plugin in eslint tries to autoformat the code on every run.
